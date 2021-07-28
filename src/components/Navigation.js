@@ -1,8 +1,7 @@
 import React from "react";
+import './assets/css/app.css';
+
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
     Link
   } from "react-router-dom";
 
@@ -12,18 +11,18 @@ function Navigation() {
       <h1>GERNER</h1>
       <nav>
         <ul>
-          <li>
+          <a><li>
             <Link to="/">About Me</Link>
-          </li>
-          <li>
+          </li></a>
+          <a><li>
             <Link to="/portfolio">Work</Link>
-          </li>
-          <li>
+          </li></a>
+          <a><li>
             <Link to="/contact">Contact</Link>
-          </li>
-          <li>
+          </li></a>
+          <a><li>
             <Link to="/resume">Resume</Link>
-          </li>
+          </li></a>
         </ul>
       </nav>
     </div>

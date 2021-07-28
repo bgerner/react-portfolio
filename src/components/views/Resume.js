@@ -1,13 +1,18 @@
 import React from "react";
+import '../assets/css/app.css'
 
 function Resume() {
   return (
-    <section id="resume" class="s">
-      <div class="section-title">
+    <section id="resume" className="s">
+      <div className="section-title">
         <h3>Resume</h3>
       </div>
-      <div class="text2">
-        <a href="./resume.html">Resume coming soon</a>
+      <div className="text2">
+        <ul>
+          <li>NASM Cerftified Personal Trainer</li>
+          <li>5 Star DoorDash Driver</li>
+          <li>Backflip on skis</li>
+        </ul>
       </div>
     </section>
   );

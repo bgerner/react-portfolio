@@ -1,10 +1,11 @@
 import React from "react";
 import ContactMe from "../ContactMe";
+import '../assets/css/app.css';
 
 function Contact() {
   return (
-    <section id="contact" class="s">
-    <div class="section-title">
+    <section id="contact" className="s">
+    <div className="section-title">
         <h3>Contact</h3>
     </div>
     <ContactMe />

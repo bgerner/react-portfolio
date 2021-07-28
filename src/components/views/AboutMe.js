@@ -1,12 +1,16 @@
 import React from "react";
+import '../assets/css/app.css'
 
 function AboutMe() {
   return (
-    <section id="about-me" class="s">
-      <div class="section-title">
+    <section id="about-me" className="s">
+      <div className="section-title">
         <h3>About Me</h3>
       </div>
-      <div class="text">
+      <div className="aboutme-image">
+        <img src="../assets/imgs/kid.jpg" alt='portrait'></img>
+      </div>
+      <div className="text">
         <p>
           My name is Benjamin (Ben) Gerner. I love skiing and climbing which is
           a big reason that I'm going to Boulder for school next year. I'm an
