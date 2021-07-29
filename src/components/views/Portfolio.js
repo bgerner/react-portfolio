@@ -1,5 +1,11 @@
 import React from "react";
 import '../assets/css/app.css';
+import gerner from '../assets/imgs/gerner-fitness.png';
+import coolcali from '../assets/imgs/cool-california.png';
+import techshare from '../assets/imgs/tech-share.png';
+import wildthoughts from '../assets/imgs/wild-thoughts.png';
+import readme from '../assets/imgs/readme-generator.png';
+import portfolio from '../assets/imgs/portfolio.png';
 
 function Portfolio() {
   return (
@@ -16,7 +22,7 @@ function Portfolio() {
               target="_blank"
               rel="noreferrer"
             >
-              <img id="application1" src="../assets/imgs/gerner-fitness.png" alt="tech share"/>
+              <img id="application1" src={gerner} alt="tech share"/>
               <figcaption>Gerner Fitness</figcaption>
             </a>
           </figure>
@@ -28,7 +34,7 @@ function Portfolio() {
             >
               <img
                 className="application"
-                src="../assets/imgs/cool-california.png"
+                src={coolcali}
                 alt="cool california"
               />
               <figcaption>Cool California</figcaption>
@@ -44,7 +50,7 @@ function Portfolio() {
             >
               <img
                 className="application"
-                src="../assets/imgs/tech-share.png"
+                src={techshare}
                 alt="tech share"
               />
               <figcaption>Tech Share</figcaption>
@@ -58,10 +64,36 @@ function Portfolio() {
             >
               <img
                 className="application"
-                src="../assets/imgs/wild-thoughts.png"
+                src={wildthoughts}
                 alt="wild thoughts"
               />
               <figcaption>Wild Thoughts</figcaption>
+            </a>
+          </figure>
+        </div>
+        <div>
+          <figure>
+            <a
+              href="https://github.com/bgerner/readme-generator"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img id="application1" src={readme} alt="readme-generator"/>
+              <figcaption>ReadMe Generator</figcaption>
+            </a>
+          </figure>
+          <figure>
+            <a
+              href="https://bgerner.github.io/react-portfolio/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="application"
+                src={portfolio}
+                alt="react portfolio"
+              />
+              <figcaption>React Portfolio (this!)</figcaption>
             </a>
           </figure>
         </div>

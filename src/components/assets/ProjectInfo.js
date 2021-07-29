@@ -28,6 +28,20 @@ const Projects = [
         link: '',
         repoLink: 'https://github.com/bgerner/wild-thoughts',
         image: '/wild-thoughts.png'
+    },
+    {
+        id: 4,
+        title: 'ReadMe Generator',
+        link: '',
+        repoLink: 'https://github.com/bgerner/readme-generator',
+        image: '/readme-generator.png'
+    },
+    {
+        id: 5,
+        title: 'React Portfolio (this!)',
+        link: 'https://bgerner.github.io/react-portfolio/',
+        repoLink: 'https://github.com/bgerner/wild-thoughts',
+        image: '/wild-thoughts.png'
     }
 ]
 

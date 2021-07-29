@@ -7,7 +7,7 @@ function Resume() {
       <div className="section-title">
         <h3>Resume</h3>
       </div>
-      <div className="text2">
+      <div className="text">
         <ul>
           <li>NASM Cerftified Personal Trainer</li>
           <li>5 Star DoorDash Driver</li>

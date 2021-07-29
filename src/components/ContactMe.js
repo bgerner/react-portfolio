@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { validateEmail } from "../utils/helpers"
+import { validateEmail } from "../utils/helpers";
+import './assets/css/app.css'
 
 function ContactForm() {
   const [formState, setFormState] = useState({
@@ -38,9 +39,8 @@ function ContactForm() {
   }
   return (
     <section>
-      <h1 data-testid="contact-h1">Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
+        <div className="form-item">
           <label htmlFor="name">Name:</label>
           <input
             type="text"
@@ -50,7 +50,7 @@ function ContactForm() {
             onMouseLeave={handleChange}
           />
         </div>
-        <div>
+        <div className="form-item">
           <label htmlFor="email">Email address:</label>"
           <input
             type="email"
@@ -60,7 +60,7 @@ function ContactForm() {
             onMouseLeave={handleChange}
           />
         </div>
-        <div>
+        <div className="form-item">
           <label htmlFor="message">Message:</label>
           <textarea
             name="message"
@@ -75,7 +75,7 @@ function ContactForm() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button data-testid="contact-submit" type="submit">Submit</button>
+        <button data-testid="contact-submit" className="form-item" id="contact-button" type="submit">Submit</button>
       </form>
     </section>
   );

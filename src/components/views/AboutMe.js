@@ -1,5 +1,6 @@
 import React from "react";
-import '../assets/css/app.css'
+import '../assets/css/app.css';
+import portrait from '../assets/imgs/loon.jpeg'
 
 function AboutMe() {
   return (
@@ -8,10 +9,10 @@ function AboutMe() {
         <h3>About Me</h3>
       </div>
       <div className="aboutme-image">
-        <img src="../assets/imgs/kid.jpg" alt='portrait'></img>
+        <img src={portrait} alt='portrait' id="portrait-image"></img>
       </div>
       <div className="text">
-        <p>
+        <p className="paragraph-text">
           My name is Benjamin (Ben) Gerner. I love skiing and climbing which is
           a big reason that I'm going to Boulder for school next year. I'm an
           NASM certified personal trainer and have gained a lot of experience in
@@ -28,9 +29,40 @@ function AboutMe() {
           including the Wim Hof Method and Tai Chi. Everything that a person
           does and every decision that they make stems from their mentality, and
           improving mental fitness is my number one goal with each one of my
-          clients. Please see the contact form below if you want me to help you
-          change your life for the better!
+          clients. I also like to play guitar and I code a little bit. Follow the link below to my website:
         </p>
+        <a className="paragraph-link" href="https://gernerfitness.com/" target="_blank" rel="noreferrer">Gerner Fitness</a>
+        {/* <p id="wolf-kozlowski" className="paragraph-text">
+          
+Art by Blazej Kozlowski
+                              __
+                            .d$$b
+                          .' TO$;\
+                         /  : TP._;
+                        / _.;  :Tb|
+                       /   /   ;j$j
+                   _.-"       d$$$$
+                 .' ..       d$$$$;
+                /  /P'      d$$$$P. |\
+               /   "      .d$$$P' |\^"l
+             .'           `T$P^"""""  :
+         ._.'      _.'                ;
+      `-.-".-'-' ._.       _.-"    .-"
+    `.-" _____  ._              .-"
+   -(.g$$$$$$$b.              .'
+     ""^^T$$$P^)            .(:
+       _/  -"  /.'         /:/;
+    ._.'-'`-'  ")/         /;/;
+ `-.-"..--""   " /         /  ;
+.-" ..--""        -'          :
+..--""--.-"         (\      .-(\
+  ..--""              `-\(\/;`
+    _.                      :
+                            ;`-
+                           :\
+                           ;
+          
+        </p> */}
       </div>
     </section>
   );
