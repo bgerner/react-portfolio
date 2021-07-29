@@ -2,4 +2,4 @@
 
   Mean everything you do. Show love
   
-  Deployed application: [here](https://github.com/bgerner/)
+  Deployed application [here](https://github.com/bgerner/)
