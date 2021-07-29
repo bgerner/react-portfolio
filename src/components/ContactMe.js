@@ -41,7 +41,7 @@ function ContactForm() {
     <section>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div className="form-item">
-          <label htmlFor="name">Name:</label>
+          <label className="contact-label" htmlFor="name">Name:</label>
           <input
             type="text"
             name="name"
@@ -51,7 +51,7 @@ function ContactForm() {
           />
         </div>
         <div className="form-item">
-          <label htmlFor="email">Email address:</label>"
+          <label  className="contact-label" htmlFor="email">Email address:</label>"
           <input
             type="email"
             name="email"
@@ -61,7 +61,7 @@ function ContactForm() {
           />
         </div>
         <div className="form-item">
-          <label htmlFor="message">Message:</label>
+          <label className="contact-label" htmlFor="message">Message:</label>
           <textarea
             name="message"
             rows="5"
@@ -75,7 +75,7 @@ function ContactForm() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button data-testid="contact-submit" className="form-item" id="contact-button" type="submit">Submit</button>
+        <button data-testid="contact-submit" id="contact-button" type="submit">Submit</button>
       </form>
     </section>
   );

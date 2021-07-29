@@ -9,8 +9,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Avantgarde", "TeX Gyre Adventor", "URW Gothic L", "sans-serif";
   background: -webkit-linear-gradient(rgba(253, 106, 2, 0.3), white);
   width: auto;
   background-repeat: no-repeat;
@@ -213,21 +212,39 @@ figcaption {
   padding: 7px;
 }
 #contact-button {
-   display: inline-block;
-   padding: 0.3em 1.2em;
-   margin: 0 0.3em 0.3em 0;
-   border-radius: 2em;
-   box-sizing: border-box;
-   text-decoration: none;
-   font-family: "Roboto", sans-serif;
-   font-weight: 300;
-   color: #ffffff;
-   background-color: #4eb5f1;
-   text-align: center;
-   transition: all 0.2s;
+  display:inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration:none;
+  color: var(--two);
+  background-color: white;
+  text-align: center;
+  transition: all 0.2s;
+  font-family: "Avantgarde";
+  font-weight: bold;
 }
 #contact-button:hover {
-   background-color: #4095c6;
+  background-color: var(--one);
+}
+.contact-label {
+  background: -webkit-linear-gradient(rgba(253, 106, 2, 1), white);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align:top
+}
+.error-text {
+  background: -webkit-linear-gradient(rgba(253, 106, 2, 1), rgba(253, 106, 2, 0.3));
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  margin-bottom: 12px
 }
 .resume-info {
   text-align: center;
@@ -294,6 +311,7 @@ footer {
     height: 144px;
   }
 } */
+
 @media screen and (max-width: 977px) {
   .applications {
     justify-content:space-evenly;
@@ -369,5 +387,11 @@ height: 200px
   }
   figcaption {
     margin: -42px 0 0 5px;
+  }
+}
+@media all and (max-width:30em){
+  #contact-button {
+    display: block;
+    margin: 0.2em auto;
   }
 }
