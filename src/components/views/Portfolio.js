@@ -11,11 +11,11 @@ function Portfolio() {
   return (
     <section id="work" className="s">
       <div className="section-title">
-        <h3>Work</h3>
+        <h3 id="work-title">Work</h3>
       </div>
 
       <div className="applications">
-        <div>
+        
           <figure>
             <a
               href="https://www.gernerfitness.com"
@@ -46,8 +46,8 @@ function Portfolio() {
               <figcaption>Cool California</figcaption>
             </a>
           </figure>
-        </div>
-        <div>
+        
+        
           <figure>
             <a
               href="https://github.com/bgerner/tech-share/"
@@ -79,8 +79,8 @@ function Portfolio() {
               <figcaption>Wild Thoughts</figcaption>
             </a>
           </figure>
-        </div>
-        <div>
+        
+        
           <figure>
             <a
               href="https://github.com/bgerner/readme-generator"
@@ -109,7 +109,7 @@ function Portfolio() {
               <figcaption>React Portfolio (this!)</figcaption>
             </a>
           </figure>
-        </div>
+    
       </div>
     </section>
   );

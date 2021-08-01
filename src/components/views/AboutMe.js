@@ -31,8 +31,7 @@ function AboutMe() {
           improving mental fitness is my number one goal with each one of my
           clients. I also like to play guitar and I code a little bit. Follow the link below to my website:
         </p>
-        <a className="paragraph-link" href="https://gernerfitness.com/" target="_blank" rel="noreferrer">Gerner Fitness</a>
-        {/* <p id="wolf-kozlowski" className="paragraph-text">
+        {/* <div id="wolf-kozlowski" className="paragraph-text">
           
 Art by Blazej Kozlowski
                               __
@@ -62,8 +61,9 @@ Art by Blazej Kozlowski
                            :\
                            ;
           
-        </p> */}
+        </div> */}
       </div>
+      <a id="paragraph-link" href="https://gernerfitness.com/" target="_blank" rel="noreferrer">Gerner Fitness</a>
     </section>
   );
 }
