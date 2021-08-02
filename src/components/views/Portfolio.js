@@ -17,25 +17,35 @@ function Portfolio() {
       <div className="applications">
         
           <figure>
-            <a
-              href="https://www.gernerfitness.com"
-              target="_blank"
-              rel="noreferrer"
-            >
+          
               <div className="img-container">
                 <img class="application" 
                 src={gerner} 
                 alt="tech share" />
               </div>
+
               <figcaption>Gerner Fitness</figcaption>
-            </a>
-          </figure>
-          <figure>
-            <a
-              href="https://github.com/costanza13/cool-california/"
+
+              {/* <a
+              href="https://www.gernerfitness.com"
               target="_blank"
               rel="noreferrer"
+              className="git-icon"
             >
+              <img src="https://img.icons8.com/color/45/000000/github--v3.png"/>
+            </a> */}
+            <a
+              href="https://www.gernerfitness.com"
+              target="_blank"
+              rel="noreferrer"
+              className="deploy-icon"
+            >
+              <img src="https://img.icons8.com/fluency/45/000000/rocket.png"/>
+            </a>
+            
+          </figure>
+          <figure>
+            
               <div className="img-container">
                 <img
                   className="application"
@@ -43,32 +53,58 @@ function Portfolio() {
                   alt="cool california"
                 />
               </div>
+
               <figcaption>Cool California</figcaption>
-            </a>
-          </figure>
-        
-        
-          <figure>
-            <a
-              href="https://github.com/bgerner/tech-share/"
+            
+              <a
+              href="https://github.com/costanza13/cool-california"
               target="_blank"
               rel="noreferrer"
+              className="git-icon"
             >
+              <img src="https://img.icons8.com/color/45/000000/github--v3.png"/>
+            </a>
+            <a
+              href="https://cool-california.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="deploy-icon"
+            >
+              <img src="https://img.icons8.com/fluency/45/000000/rocket.png"/>
+            </a>
+
+          </figure>      
+          <figure>
+            
               <div className="img-container">
                 <img 
                 className="application" 
                 src={techshare} 
                 alt="tech share" />
               </div>
+
               <figcaption>Tech Share</figcaption>
-            </a>
-          </figure>
-          <figure>
-            <a
-              href="https://github.com/bgerner/wild-thoughts/"
+
+              <a
+              href="https://github.com/bgerner/tech-share"
               target="_blank"
               rel="noreferrer"
+              className="git-icon"
             >
+              <img src="https://img.icons8.com/color/45/000000/github--v3.png"/>
+            </a>
+            <a
+              href="https://gerner-tech-share.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="deploy-icon"
+            >
+              <img src="https://img.icons8.com/fluency/45/000000/rocket.png"/>
+            </a>
+            
+          </figure>
+          <figure>
+            
               <div className="img-container">
                 <img
                   className="application"
@@ -76,29 +112,55 @@ function Portfolio() {
                   alt="wild thoughts"
                 />
               </div>
+
               <figcaption>Wild Thoughts</figcaption>
+            
+              <a
+              href="https://github.com/bgerner/wild-thoughts"
+              target="_blank"
+              rel="noreferrer"
+              className="git-icon"
+            >
+              <img src="https://img.icons8.com/color/45/000000/github--v3.png"/>
             </a>
+            {/* <a
+              href="https://www.gernerfitness.com"
+              target="_blank"
+              rel="noreferrer"
+              className="deploy-icon"
+            >
+              <img src="https://img.icons8.com/fluency/45/000000/rocket.png"/>
+            </a> */}
+
           </figure>
-        
-        
           <figure>
+            
+              <div className="img-container">
+                <img class="application" src={readme} alt="readme-generator" />
+              </div>
+
+              <figcaption>ReadMe Generator</figcaption>
+
             <a
               href="https://github.com/bgerner/readme-generator"
               target="_blank"
               rel="noreferrer"
+              className="git-icon"
             >
-              <div className="img-container">
-                <img class="application" src={readme} alt="readme-generator" />
-              </div>
-              <figcaption>ReadMe Generator</figcaption>
+              <img src="https://img.icons8.com/color/45/000000/github--v3.png"/>
             </a>
-          </figure>
-          <figure>
-            <a
-              href="https://bgerner.github.io/react-portfolio/"
+            {/* <a
+              href="https://www.gernerfitness.com"
               target="_blank"
               rel="noreferrer"
+              className="deploy-icon"
             >
+              <img src="https://img.icons8.com/fluency/45/000000/rocket.png"/>
+            </a> */}
+
+          </figure>
+          <figure>
+            
               <div className="img-container">
                 <img
                   className="application"
@@ -106,8 +168,26 @@ function Portfolio() {
                   alt="react portfolio"
                 />
               </div>
+
               <figcaption>React Portfolio (this!)</figcaption>
+
+              <a
+              href="https://github.com/bgerner/react-portfolio"
+              target="_blank"
+              rel="noreferrer"
+              className="git-icon"
+            >
+              <img src="https://img.icons8.com/color/45/000000/github--v3.png"/>
             </a>
+            <a
+              href="https://bgerner.github.io/react-portfolio/"
+              target="_blank"
+              rel="noreferrer"
+              className="deploy-icon"
+            >
+              <img src="https://img.icons8.com/fluency/45/000000/rocket.png"/>
+            </a>
+
           </figure>
     
       </div>

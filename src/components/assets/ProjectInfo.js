@@ -4,7 +4,7 @@ const Projects = [
     {
         id: 0,
         title: 'Gerner Fitness',
-        link: 'gernerfitness.com',
+        link: 'https://gernerfitness.com/',
         repoLink: '',
         image: '/gerner-fitness.png'
     },
@@ -40,8 +40,8 @@ const Projects = [
         id: 5,
         title: 'React Portfolio (this!)',
         link: 'https://bgerner.github.io/react-portfolio/',
-        repoLink: 'https://github.com/bgerner/wild-thoughts',
-        image: '/wild-thoughts.png'
+        repoLink: 'https://github.com/bgerner/react-portfolio',
+        image: '/portfolio.png'
     }
 ]
 
