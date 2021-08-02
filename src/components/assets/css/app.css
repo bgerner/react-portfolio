@@ -235,7 +235,7 @@ figcaption {
 }
 #contact-button:hover {
   background: -webkit-linear-gradient(rgba(253, 106, 2, 1), var(--two));
-  color: white;
+  color: var(--one);
 }
 .contact-label {
   background: -webkit-linear-gradient(rgba(34, 34, 34, 1), white);
