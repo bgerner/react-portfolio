@@ -75,7 +75,7 @@ function ContactForm() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button data-testid="contact-submit" id="contact-button" type="submit">Submit</button>
+        <a href={`mailto:brgerner@gmail.com?subject=Hello Ben!&body=${message} < from ${name} (${email}) >`}><button data-testid="contact-submit" id="contact-button" type="button">Submit</button></a>
       </form>
     </section>
   );

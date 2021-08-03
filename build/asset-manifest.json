@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.38b90a3f.chunk.css",
+    "main.js": "/static/js/main.b9dfdfe2.chunk.js",
+    "main.js.map": "/static/js/main.b9dfdfe2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.37bfa0a6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.37bfa0a6.js.map",
+    "static/js/2.f1724248.chunk.js": "/static/js/2.f1724248.chunk.js",
+    "static/js/2.f1724248.chunk.js.map": "/static/js/2.f1724248.chunk.js.map",
+    "static/js/3.a13ab0cc.chunk.js": "/static/js/3.a13ab0cc.chunk.js",
+    "static/js/3.a13ab0cc.chunk.js.map": "/static/js/3.a13ab0cc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.38b90a3f.chunk.css.map": "/static/css/main.38b90a3f.chunk.css.map",
+    "static/js/2.f1724248.chunk.js.LICENSE.txt": "/static/js/2.f1724248.chunk.js.LICENSE.txt",
+    "static/media/cool-california.d2b6d6cd.png": "/static/media/cool-california.d2b6d6cd.png",
+    "static/media/gerner-fitness-2.8f3e9141.png": "/static/media/gerner-fitness-2.8f3e9141.png",
+    "static/media/loon.987ec7b3.jpeg": "/static/media/loon.987ec7b3.jpeg",
+    "static/media/portfolio.b5120a4e.png": "/static/media/portfolio.b5120a4e.png",
+    "static/media/readme-generator.9ef92b40.png": "/static/media/readme-generator.9ef92b40.png",
+    "static/media/tech-share.29b5cd19.png": "/static/media/tech-share.29b5cd19.png",
+    "static/media/wild-thoughts.b9448905.png": "/static/media/wild-thoughts.b9448905.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37bfa0a6.js",
+    "static/js/2.f1724248.chunk.js",
+    "static/css/main.38b90a3f.chunk.css",
+    "static/js/main.b9dfdfe2.chunk.js"
+  ]
+}
