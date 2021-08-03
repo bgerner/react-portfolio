@@ -40,12 +40,13 @@ header h1 {
   text-shadow: none;
 }
 header a {
-  background: -webkit-linear-gradient(var(--one), rgba(253, 106, 2, 0.3));
+  /* background: -webkit-linear-gradient(var(--one), rgba(253, 106, 2, 0.3));
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  -moz-text-fill-color: transparent; */
   text-decoration: none;
+  color: var(--one);
 }
 header nav {
   margin: 7px 0;
@@ -63,14 +64,15 @@ header nav ul {
   font-size: 1.75vw;
   text-shadow: none;
 }
-#nav-link:hover {
+#nav-link:hover,
+.active {
   /* -webkit-background-clip: none;
   -moz-background-clip: none;
   -webkit-text-fill-color:none;
   -moz-text-fill-color:none; */
-  background:none;
+  /* background:none; */
   border-radius: 10px;
-  font-weight:bold;
+  text-decoration: underline;
 }
 section {
   padding: 50px;

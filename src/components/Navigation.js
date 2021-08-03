@@ -2,7 +2,7 @@ import React from "react";
 import './assets/css/app.css';
 
 import {
-    Link
+    NavLink, Link
   } from "react-router-dom";
 
 function Navigation() {
@@ -12,16 +12,16 @@ function Navigation() {
       <nav>
         <ul>
           <a id="nav-link"><li>
-            <Link to="/">About Me</Link>
+            <NavLink exact to="/">About Me</NavLink>
           </li></a>
           <a id="nav-link"><li>
-            <Link to="/portfolio">Work</Link>
+            <NavLink to="/portfolio">Work</NavLink>
           </li></a>
           <a id="nav-link"><li>
-            <Link to="/contact">Contact</Link>
+            <NavLink to="/contact">Contact</NavLink>
           </li></a>
           <a id="nav-link"><li>
-            <Link to="/resume">Resume</Link>
+            <NavLink to="/resume">Resume</NavLink>
           </li></a>
         </ul>
       </nav>

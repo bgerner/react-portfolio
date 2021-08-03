@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AboutMe from "./components/views/AboutMe";
 import Contact from "./components/views/Contact";
 import Portfolio from "./components/views/Portfolio";
@@ -12,18 +12,14 @@ function App() {
     <Router>
       <Header />
       <Switch>
-        <Route path="/contact">
-          <Contact />
-        </Route>
-        <Route path="/portfolio">
-          <Portfolio />
-        </Route>
-        <Route path="/resume">
-          <Resume />
-        </Route>
-        <Route path="/">
-          <AboutMe />
-        </Route>
+        <Route exact path="/" component={AboutMe} />
+          {/* <AboutMe /> */}
+        <Route exact path="/contact" component={Contact} />
+          {/* <Contact /> */}
+        <Route exact path="/portfolio" component={Portfolio} />
+          {/* <Portfolio /> */}
+        <Route exact path="/resume" component={Resume} />
+          {/* <Resume /> */}
       </Switch>
       <Footer />
     </Router>
