@@ -1,5 +1,6 @@
 import React from "react";
-import '../assets/css/app.css'
+import '../assets/css/app.css';
+import resume from "../assets/docs/Resume-Draft.pdf";
 
 function Resume() {
   return (
@@ -7,12 +8,8 @@ function Resume() {
       <div className="section-title">
         <h3>Resume</h3>
       </div>
-      <div className="text">
-        <ul>
-          <li>NASM Cerftified Personal Trainer</li>
-          <li>5 Star DoorDash Driver</li>
-          <li>Backflip on skis</li>
-        </ul>
+      <div id="resume-a">
+      <a id="paragraph-link" href={resume} download>Click here to download my resume!</a>
       </div>
     </section>
   );

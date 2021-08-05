@@ -2,7 +2,7 @@ import React from "react";
 import './assets/css/app.css';
 
 import {
-    NavLink, Link
+    NavLink
   } from "react-router-dom";
 
 function Navigation() {
