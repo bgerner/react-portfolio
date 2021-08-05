@@ -15,7 +15,7 @@ function Navigation() {
             <NavLink exact to="/">About Me</NavLink>
           </li></a>
           <a id="nav-link"><li>
-            <NavLink to="/portfolio">Work</NavLink>
+            <NavLink to="/portfolio">Portfolio</NavLink>
           </li></a>
           <a id="nav-link"><li>
             <NavLink to="/contact">Contact</NavLink>

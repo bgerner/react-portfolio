@@ -7,7 +7,7 @@ function Portfolio() {
   return (
     <section id="work" className="s">
       <div className="section-title">
-        <h3 id="work-title">Work</h3>
+        <h3 id="work-title">Portfolio</h3>
       </div>
 
       <div className="applications">
