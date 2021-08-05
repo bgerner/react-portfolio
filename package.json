@@ -1,6 +1,6 @@
 {
   "name": "react-portfolio",
-  "hompage": "http://bgerner.github.io/react-portfolio/",
+  "hompage": "https://ben-gerner-portfolio.herokuapp.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
