@@ -43,6 +43,7 @@ function ContactForm() {
         <div className="form-item">
           <label className="contact-label" htmlFor="name">Name:</label>
           <input
+            className="form-input"
             type="text"
             name="name"
             defaultValue={name}
@@ -53,6 +54,7 @@ function ContactForm() {
         <div className="form-item">
           <label  className="contact-label" htmlFor="email">Email address:</label>"
           <input
+            className="form-input"
             type="email"
             name="email"
             defaultValue={email}
@@ -63,6 +65,7 @@ function ContactForm() {
         <div className="form-item">
           <label className="contact-label" htmlFor="message">Message:</label>
           <textarea
+            className="form-input"
             name="message"
             rows="5"
             defaultValue={message}

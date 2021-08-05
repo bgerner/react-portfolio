@@ -249,6 +249,9 @@ figcaption {
   display: inline-block;
   vertical-align:top
 }
+.contact-input {
+  
+}
 .error-text {
   color: rgba(253, 106, 2, 1);
   margin-bottom: 12px
