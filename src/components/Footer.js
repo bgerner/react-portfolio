@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "./assets/docs/Resume-Draft.pdf";
+import resume from "./assets/docs/Ben-Gerner-Resume.pdf";
 
 function Footer() {
   return (
