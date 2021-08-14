@@ -149,9 +149,16 @@ section {
   font-size: 22px;
   display: flex;
   justify-content: left;
+  flex-direction: column;
 }
 #work-title {
   padding-bottom: 20px;
+}
+.portfolio-subtitle {
+  color: white;
+  padding-bottom: 30px;
+  width: 100%;
+  font-size: 18px;
 }
 .text {
   list-style-type: none;

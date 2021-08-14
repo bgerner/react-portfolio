@@ -8,6 +8,8 @@ function Portfolio() {
     <section id="work" className="s">
       <div className="section-title">
         <h3 id="work-title">Portfolio</h3>
+        <p className='portfolio-subtitle'>GitHub logo - corresponding repository</p>
+        <p className='portfolio-subtitle'>Rocket logo - corresponding deployed app</p>
       </div>
 
       <div className="applications">

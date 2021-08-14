@@ -48,7 +48,6 @@ function ContactForm() {
             name="name"
             defaultValue={name}
             onBlur={handleChange}
-            onMouseLeave={handleChange}
           />
         </div>
         <div className="form-item">
@@ -59,7 +58,6 @@ function ContactForm() {
             name="email"
             defaultValue={email}
             onBlur={handleChange}
-            onMouseLeave={handleChange}
           />
         </div>
         <div className="form-item">
@@ -70,7 +68,6 @@ function ContactForm() {
             rows="5"
             defaultValue={message}
             onBlur={handleChange}
-            onMouseLeave={handleChange}
           />
         </div>
         {errorMessage && (
