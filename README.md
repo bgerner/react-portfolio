@@ -13,4 +13,3 @@ Hello! My name is Ben Gerner and I am a full stack web developer who specializes
   Please click [here](https://github.com/bgerner/) to be redirected to my GitHub profile page.
 
   Also feel free to shoot me an email @brgerner@gmail.com
-  
