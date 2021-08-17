@@ -10,7 +10,7 @@
 }
 body {
   font-family: "Avantgarde", "TeX Gyre Adventor", "URW Gothic L", "sans-serif";
-  background: -webkit-linear-gradient(rgba(253, 106, 2, 0.3), white);
+  background: -webkit-linear-gradient(rgba(253, 106, 2, 1), white);
   width: auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
