@@ -237,17 +237,17 @@ figcaption {
   box-sizing: border-box;
   text-decoration:none;
   color: var(--two);
-  background:  -webkit-linear-gradient(rgba(34, 34, 34, 1), white);
+  background: -webkit-linear-gradient(rgba(253, 106, 2, 1), white);
   text-align: center;
   font-family: 'Avantgarde';
   font-weight: bold;
 }
 #contact-button:hover {
-  background: -webkit-linear-gradient(rgba(253, 106, 2, 1), var(--two));
-  color: var(--one);
+  background: -webkit-linear-gradient(var(--two), rgba(253, 106, 2, 1));
+  color: white;
 }
 .contact-label {
-  background: -webkit-linear-gradient(rgba(34, 34, 34, 1), white);
+  background: -webkit-linear-gradient(rgba(253, 106, 2, 1), white);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -256,8 +256,8 @@ figcaption {
   display: inline-block;
   vertical-align:top
 }
-.contact-input {
-  
+.form-input {
+  font-family: "Avantgarde", "TeX Gyre Adventor", "URW Gothic L", "sans-serif";
 }
 .error-text {
   color: rgba(253, 106, 2, 1);
@@ -273,7 +273,7 @@ figcaption {
   padding: 40px
 }
 footer {
-  background: -webkit-linear-gradient(var(--one), var(--two));
+  background: -webkit-linear-gradient(var(--two),var(--one) );
   width: 100%;
   padding: 25px 25px;
   color: var(--two);
@@ -316,8 +316,7 @@ footer {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  text-decoration: underline;
-  font-style: italic;
+  font-weight:bold;
 }
 #wolf-kozlowski {
   white-space: pre-wrap;
