@@ -2,7 +2,7 @@ import gerner from "../assets/imgs/gerner-fitness-2.png";
 import coolcali from "../assets/imgs/cool-california.png";
 import techshare from "../assets/imgs/tech-share.png";
 import wildthoughts from "../assets/imgs/wild-thoughts.png";
-import readme from "../assets/imgs/readme-generator.png";
+import anime from "../assets/imgs/anime.png";
 import portfolio from "../assets/imgs/portfolio.png";
 
 const Projects = [
@@ -36,10 +36,10 @@ const Projects = [
     },
     {
         id: 4,
-        title: 'ReadMe Generator',
-        link: '',
-        repoLink: 'https://github.com/bgerner/readme-generator',
-        image: readme
+        title: 'Kiss Anime',
+        link: 'https://my-kiss-anime.herokuapp.com/',
+        repoLink: 'https://github.com/theoneandonlyzako/kiss-anime/',
+        image: anime
     },
     {
         id: 5,
